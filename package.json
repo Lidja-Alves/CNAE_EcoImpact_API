@@ -1,0 +1,32 @@
+{
+  "name": "cnae-ecoimpact-api",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "nodemon": "^3.1.7",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "typescript": "^4.0.0",
+    "ts-jest": "^29.7.0",
+    "@types/jest": "^29.7.0"
+  }
+}
